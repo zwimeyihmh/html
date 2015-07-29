@@ -1,0 +1,380 @@
+body {
+  margin: 0;
+  padding: 0;
+  background: url(./picture/back.jpg) repeat;
+  background-size: 100% auto;
+}
+
+.header {
+  width: 1100px;
+  height: 215px;
+  background: url(./picture/flower.jpg) no-repeat;
+  background-size: 100% auto;
+  margin: 110px auto 0 auto;
+
+}
+
+.header h1{
+  font-size: 30px;
+  color: #FFF;
+  text-align: center;
+  position: relative;
+  top: 217px;
+  margin: -46px;
+  font-weight: 300;
+  font-family: 'Times New Roman';
+}
+
+.avatar {
+  height: 140px;
+  width: 140px;
+  margin: 0 auto;
+  display: block;
+  max-height:130px;
+  border-radius: 1000px;
+  background: url(./picture/dog.jpg) no-repeat;
+  position: relative;
+  top: -78px;
+  border: 5px solid #FFF;
+}
+#chose {
+width: 1100px;
+height: 50px;
+margin: 0 auto ;
+margin-top: 25px;
+padding: 0;
+font-size: 100%;
+background-color: #000;
+text-align: center;
+font-family: inherit;
+}
+
+#chose>li {
+  list-style: none;
+  color: #000;
+  display: inline-block;
+  height: 100%;
+  line-height: 50px;
+  margin: 0 49px;
+  text-decoration: none;
+}
+#chose>li a {
+  color: #FFF;
+  /*display: inline-block;*/
+  text-decoration: none;
+}
+
+#chose>li a:hover {
+  color: #123;
+  text-decoration: underline;
+}
+
+.page1 {
+  background-color: #FFF;
+  margin: 0 auto;
+  margin-top: 0;
+  top: 0;
+  padding-top: 0;
+  width: 1100px;
+  height: 493px;
+  position: relative;
+}
+
+.page1 h2 {
+  font-size: 30px;
+  color: #234;
+  text-align: center;
+  margin: 0 auto;
+  padding-top: 30px;
+  /*margin-top: 100px;*/
+  /*font-weight: 300;*/
+  /*font-family: 'Times New Roman';*/
+}
+
+.line {
+  width: 100px;
+  height: 4px;
+  background: #000;
+  margin: 0 auto;
+}
+
+.page1 h3 {
+  font-size: 22px;
+  text-align: center;
+  margin: 0 auto;
+  padding-top: 30px;
+}
+
+.code {
+  height: 190px;
+  width: 250px;
+  position: relative;
+  background: #FFF;
+  margin-top: 30px;
+  line-height: 16px;
+  float: left;
+  margin-left: 100px;
+}
+
+.codePicture {
+  height:100px;
+  width: 108px;
+  background: url(./picture/code.png) no-repeat;
+  margin: 0 auto;
+  position: relative;
+}
+
+.word {
+  background: #FFF;
+  width: 250px;
+  height: 20px;
+}
+
+.word h4 {
+  font-size: 20px;
+  color: #000;
+  text-align: center;
+  position: relative;
+  font-weight: 300;
+  font-family: 'Times New Roman';
+  }
+
+.words {
+  background: #FFF;
+  width: 250px;
+  height: 44px;
+}
+
+.words h5 {
+  text-align: center;
+}
+
+
+.design {
+  height: 190px;
+  width: 250px;
+  background: #FFF;
+  left: 33px;
+  margin-top: 30px;
+  line-height: 16px;
+  float: left;
+  margin-left: 60px;
+}
+
+.designPicture {
+  height:100px;
+  width: 108px;
+  background: url(./picture/design.png) no-repeat;
+  margin: 0 auto;
+  position: relative;
+}
+
+.product {
+  height: 190px;
+  width: 250px;
+  background: #FFF;
+  left: 33px;
+  margin-top: 30px;
+  line-height: 16px;
+  margin-left: 60px;
+  float: left;
+}
+
+.productPicture {
+  height:100px;
+  width: 108px;
+  background: url(./picture/product.png) no-repeat;
+  margin: 0 auto;
+  position: relative;
+}
+
+.page2 {
+  background-color: #FFF;
+  margin: 0 auto;
+  width: 1100px;
+  height: 1345px;
+  margin-top: -21px;
+  /*position: relative;*/
+}
+.page2 h1 {
+  text-align: center;
+  /*padding-top: 20px;*/
+}
+.area1 {
+  width: 960px;
+  height: 483px;
+  background: #FFF;
+}
+.edu {
+  background: url(./picture/king.png) no-repeat;
+  width: 281px;
+  height: 281px;
+  border-radius: 3px;
+  float: left;
+}
+
+.cofounder {
+  width: 580px;
+  height: 163px;
+  background: #FFF;
+  float: left;
+  padding-left: 20px;
+
+  margin-left: 40px;
+}
+.cofounder h1{
+  font-size: 33px;
+  text-align: left;
+}
+
+.area2 {
+  width: 960px;
+  height: 483px;
+  background: #FFF;
+  padding: 0;
+  top: 0;
+}
+
+.free {
+  background: url(./picture/echo.jpg) no-repeat;
+  width: 259px;
+  height: 300px;
+  margin-left: 40px;
+  float: left;
+}
+
+.area3 {
+  width: 960px;
+  height: 483px;
+  background: #FFF;
+  padding: 0;
+  top: 0;
+}
+
+.vita {
+  background: url(./picture/vita.jpg) no-repeat;
+  width: 259px;
+  height: 270px;
+  float: left;
+}
+
+.page3 {
+  background-color: #FFF;
+  margin: 0 auto;
+  width: 1100px;
+  height: 871px;
+  position: relative;
+}
+.page3 h1 {
+  text-align: center;
+  padding-top: 20px;
+}
+.page3 h2 {
+  text-align: center;
+}
+.photos {
+  background: #FFF;
+  height: 582px;
+  width: 960px;
+}
+
+.photo1 {
+  margin-top: 100px;
+  top: 50px;
+  position: absolute;
+  height: 170px;
+  width: 960px;
+  background: #FFF;
+}
+
+.p1 {
+  background: url('./picture/back.jpg');
+  width: 280px;
+  height: 170px;
+  float: left;
+  margin-left: 20px;
+}
+.p2 {
+  background: url(./picture/backer.jpg);
+  width: 280px;
+  height: 170px;
+  float: left;
+  margin-left: 20px;
+}
+.p3 {
+  background: url(./picture/echo.jpg);
+  width: 280px;
+  height: 170px;
+  float: left;
+  margin-left: 20px;
+}
+
+.photo2 {
+  margin-top: 300px;
+  top: 50px;
+  position: absolute;
+  height: 170px;
+  width: 960px;
+  background: #FFF;
+}
+.photo3 {
+  margin-top: 500px;
+  top: 50px;
+  position: absolute;
+  height: 170px;
+  width: 960px;
+  background: #FFF;
+}
+.page4 {
+  background-color: #FFF;
+  margin: 0 auto;
+  width: 1100px;
+  height: 871px;
+  position: relative;
+}
+.page4 h1 {
+  text-align: center;
+  padding-top: 20px;
+}
+.touch {
+  background: #FFF;
+  width: 960px;
+  height: 160px;
+}
+.face {
+  background: url(./picture/face.png) no-repeat;
+  width: 160px;
+  height: 160px;
+  float: left;
+  margin-left: 80px;
+}
+.tweer {
+  background: url(./picture/tweer.png) no-repeat;
+  width: 160px;
+  height: 160px;
+  float: left;
+  margin-left: 70px;
+}
+.link {
+  background: url(./picture/link.png) no-repeat;
+  width: 160px;
+  height: 160px;
+  float: left;
+  margin-left: 70px;
+}
+.teng {
+  background: url(./picture/teng.png) no-repeat;
+  width: 160px;
+  height: 160px;
+  float: left;
+  margin-left: 80px;
+}
+
+.method {
+  height: 80px;
+  width: 960px;
+}
+.method h1 {
+  margin-left: 130px;
+  float: left;
+}
